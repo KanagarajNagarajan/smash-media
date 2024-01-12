@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Salsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.hero-section{
+    background-image: url(./image/alessio-zaccaria-MplUOXqEUK0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    padding-bottom: 20px;
+}
+.hero-section p{
+    /* padding-top: 50px; */
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    /* color:black; */
+    color: #ffffff;
+}
+.hero-section h1{
+    font-size: 45px;
+    /* color: black; */
+    color: #ffffff;
+}
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 2px 20px 28px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 20px 28px -3px rgba(0,0,0,0.75);
+box-shadow: 2px 20px 28px -3px rgba(0,0,0,0.75);
+}
+.card h4{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+.services h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #002366;
+    
+}
+.card-body h4{
+    color: #002366;
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgba(228,220,220);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: goldenrod;
+    transition: 0.5s;
+}
+.ourbest{
+    background-color: #406bbb;
+   
+}
+.content h4{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.content h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    /* text-align: center; */
+    color: #002366;
+}
+.content1 h3{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #002366;
+}
+.content1 p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.content2 h3{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #002366;
+}
+.content2 h4{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #002366;
+}
+.content2 p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact h1{
+     text-align: center;
+    padding-bottom: 20px;
+    color: #002366;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact h5{
+    color: #002366;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact p{
+    color: #0c0d0f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.contact .btn3{
+    background-color: #002366;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn3:hover{
+    background:white;
+    color: black;
+    border: 1px solid black;
+}
+ button.btn3  a{
+    color: #ffffff; text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+button.btn3 a:hover{
+    /* background-color: #0c0d0f; */
+    color: #002366;
+}
+.button .btn3{
+    background-color: #002366;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+.button .btn3:hover{
+    background:white;
+    color: black;
+    border: 1px solid black;
+}
+.circle:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: goldenrod;
+}
+.OurApproach{
+    background-color: #406bbb;
+}
+.OurApproach h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #002366;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.OurApproach h2{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #002366;
+}
+.OurApproach p{
+    font-size: 18px;
+    color:#ffffff;
+}
+.adv h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #002366;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.accordion-button{
+    font-size: 25px;
+    color: #002366;
+}
+.accordion-body{
+    font-size: 18px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.ready{
+    background-color: #406bbb;
+}
+.ready h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.ready p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
